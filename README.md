@@ -3,7 +3,7 @@ iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使�
 
 ## Native 与 JS 是怎么交互的
 
-### JS调用OC（JS 调用 Native，UIWebView 通过 JavaScriptCore 库，内部有一个 JSContext 对象，可实现共享，WKWebView 通过 Web 的 window 对象提供 WebKit 对象实现共享。WKWebView 绑定共享对象，是通过特定的构造方法实现，参考代码，通过指定 UserContentController 对象的 ScriptMessageHandler 经过 Configuration 参数构造时传入）
+#### 1. JS调用OC（JS 调用 Native，UIWebView 通过 JavaScriptCore 库，内部有一个 JSContext 对象，可实现共享，WKWebView 通过 Web 的 window 对象提供 WebKit 对象实现共享。WKWebView 绑定共享对象，是通过特定的构造方法实现，参考代码，通过指定 UserContentController 对象的 ScriptMessageHandler 经过 Configuration 参数构造时传入）
 
 /// 注册的方法名
 ```
@@ -12,7 +12,7 @@ iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使�
     }];
 ``` 
     
-### OC调用JS(Native 调用 JS，这个完全依靠 WebView 提供的接口实现，WKWebView 提供的接口和 UIWebView 命名上较为类似，区别是 WKWebView 的这个接口是异步的，而 UIWebView 是同步接口）
+#### 2. OC调用JS(Native 调用 JS，这个完全依靠 WebView 提供的接口实现，WKWebView 提供的接口和 UIWebView 命名上较为类似，区别是 WKWebView 的这个接口是异步的，而 UIWebView 是同步接口）
 这里使用WKWebView实现OC调用JS方法跟WKWebView使用URL拦截是一样的，还是利用 
 ```
     - evaluateJavaScript:completionHandler:方法：
