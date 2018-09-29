@@ -1,23 +1,27 @@
 # XYWKWebView
-iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使用。并介绍了在使用WKWebView可能遇到的坑
+iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使用。并介绍了在使用WKWebView可能遇到的坑。
 
 ## JS调用OC（通过注册方法名的方式）
 /// 注册的方法名
+```
     [self registJavascriptBridge:@"" handler:^(id data, WVJBResponseCallback responseCallback) {
         NSLog(@"%@",data);
     }];
-    
+``` 
     
 ## OC调用JS(执行JS代码）
 这里使用WKWebView实现OC调用JS方法跟WKWebView使用URL拦截是一样的，还是利用 
-- evaluateJavaScript:completionHandler:方法：
-
-// 将分享结果返回给js
+```
+    - evaluateJavaScript:completionHandler:方法：
+```
+/// 将分享结果返回给js
+```
     NSString *jsStr = [NSString stringWithFormat:@"shareResult('%@','%@','%@')",title,content,url];
     [self.webView evaluateJavaScript:jsStr completionHandler:^(id _Nullable result, NSError * _Nullable error) {
         NSLog(@"%@----%@",result, error);
     }];
-    
+```
+
 ## WKWebView可能遇到的坑
 1. 默认的跳转行为，打开 iTuns、tel、mail、open 等
 
