@@ -7,6 +7,7 @@ iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使�
 
 ```
     [self registJavascriptBridge:@"" handler:^(id data, WVJBResponseCallback responseCallback) {
+        /// data的数据类型可以是json串，也可以是json格式，和web协商好就可以
         NSLog(@"%@",data);
     }];
 ``` 
