@@ -1,6 +1,24 @@
 # XYWKWebView
 iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使用。并介绍了在使用WKWebView可能遇到的坑。
 
+## 如何使用
+1. 集成基类 XYWKWebViewController，实现方法
+```
+- (void)loadWebPage {
+    NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] init];
+    [urlRequest setURL:[NSURL URLWithString:@"xxxx"]];
+    [self.webView loadRequest:urlRequest];
+}
+```
+
+2. 如果有交互，在ViewDidLoad方法里面需要注册方法
+```
+    [self registJavascriptBridge:@"xxxxxxx" handler:^(id data, WVJBResponseCallback responseCallback) {
+        NSLog(@"%@",data);
+    }];
+```
+
+
 ## Native 与 JS 是怎么交互的
 
 #### 1. JS调用OC（JS 调用 Native，UIWebView 通过 JavaScriptCore 库，内部有一个 JSContext 对象，可实现共享，WKWebView 通过 Web 的 window 对象提供 WebKit 对象实现共享。WKWebView 绑定共享对象，是通过特定的构造方法实现，参考代码，通过指定 UserContentController 对象的 ScriptMessageHandler 经过 Configuration 参数构造时传入）
