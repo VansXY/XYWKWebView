@@ -6,9 +6,9 @@
 //  Copyright © 2018年 肖扬. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : UIViewController
 
 
 @end

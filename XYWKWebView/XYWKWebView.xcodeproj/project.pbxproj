@@ -7,79 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C80E8345215F59FE00C4EEC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E8344215F59FE00C4EEC5 /* AppDelegate.m */; };
-		C80E8348215F59FE00C4EEC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E8347215F59FE00C4EEC5 /* ViewController.m */; };
-		C80E834A215F5A0400C4EEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80E8349215F5A0400C4EEC5 /* Assets.xcassets */; };
-		C80E834D215F5A0400C4EEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80E834B215F5A0400C4EEC5 /* Main.storyboard */; };
-		C80E8350215F5A0400C4EEC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E834F215F5A0400C4EEC5 /* main.m */; };
+		C80E837B215F5DB600C4EEC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E837A215F5DB600C4EEC5 /* AppDelegate.m */; };
+		C80E837E215F5DB600C4EEC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E837D215F5DB600C4EEC5 /* ViewController.m */; };
+		C80E8381215F5DB600C4EEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80E837F215F5DB600C4EEC5 /* Main.storyboard */; };
+		C80E8383215F5DB700C4EEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80E8382215F5DB700C4EEC5 /* Assets.xcassets */; };
+		C80E8386215F5DB700C4EEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80E8384215F5DB700C4EEC5 /* LaunchScreen.storyboard */; };
+		C80E8389215F5DB700C4EEC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E8388215F5DB700C4EEC5 /* main.m */; };
+		C80E8392215F5DEB00C4EEC5 /* XYWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E8391215F5DEB00C4EEC5 /* XYWKWebViewController.m */; };
+		C80E839B215F5E1A00C4EEC5 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E8394215F5E1A00C4EEC5 /* WebViewJavascriptBridgeBase.m */; };
+		C80E839C215F5E1A00C4EEC5 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E8395215F5E1A00C4EEC5 /* WKWebViewJavascriptBridge.m */; };
+		C80E839D215F5E1A00C4EEC5 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E8396215F5E1A00C4EEC5 /* WebViewJavascriptBridge.m */; };
+		C80E839E215F5E1A00C4EEC5 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = C80E8398215F5E1A00C4EEC5 /* WebViewJavascriptBridge.js.txt */; };
+		C80E83A1215F603100C4EEC5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80E83A0215F603100C4EEC5 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C80E8340215F59FE00C4EEC5 /* XYWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C80E8343215F59FE00C4EEC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C80E8344215F59FE00C4EEC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C80E8346215F59FE00C4EEC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C80E8347215F59FE00C4EEC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C80E8349215F5A0400C4EEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C80E834C215F5A0400C4EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C80E834E215F5A0400C4EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C80E834F215F5A0400C4EEC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C80E8351215F5A0400C4EEC5 /* XYWKWebView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XYWKWebView.entitlements; sourceTree = "<group>"; };
+		C80E8376215F5DB600C4EEC5 /* XYWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80E8379215F5DB600C4EEC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C80E837A215F5DB600C4EEC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C80E837C215F5DB600C4EEC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C80E837D215F5DB600C4EEC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C80E8380215F5DB600C4EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80E8382215F5DB700C4EEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80E8385215F5DB700C4EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C80E8387215F5DB700C4EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80E8388215F5DB700C4EEC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C80E8390215F5DEB00C4EEC5 /* XYWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWKWebViewController.h; sourceTree = "<group>"; };
+		C80E8391215F5DEB00C4EEC5 /* XYWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWKWebViewController.m; sourceTree = "<group>"; };
+		C80E8394215F5E1A00C4EEC5 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		C80E8395215F5E1A00C4EEC5 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		C80E8396215F5E1A00C4EEC5 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		C80E8397215F5E1A00C4EEC5 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		C80E8398215F5E1A00C4EEC5 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		C80E8399215F5E1A00C4EEC5 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		C80E839A215F5E1A00C4EEC5 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		C80E83A0215F603100C4EEC5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C80E833D215F59FE00C4EEC5 /* Frameworks */ = {
+		C80E8373215F5DB600C4EEC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80E83A1215F603100C4EEC5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C80E8337215F59FE00C4EEC5 = {
+		C80E836D215F5DB600C4EEC5 = {
 			isa = PBXGroup;
 			children = (
-				C80E8342215F59FE00C4EEC5 /* XYWKWebView */,
-				C80E8341215F59FE00C4EEC5 /* Products */,
+				C80E8378215F5DB600C4EEC5 /* XYWKWebView */,
+				C80E8377215F5DB600C4EEC5 /* Products */,
+				C80E839F215F603000C4EEC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C80E8341215F59FE00C4EEC5 /* Products */ = {
+		C80E8377215F5DB600C4EEC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C80E8340215F59FE00C4EEC5 /* XYWKWebView.app */,
+				C80E8376215F5DB600C4EEC5 /* XYWKWebView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C80E8342215F59FE00C4EEC5 /* XYWKWebView */ = {
+		C80E8378215F5DB600C4EEC5 /* XYWKWebView */ = {
 			isa = PBXGroup;
 			children = (
-				C80E8343215F59FE00C4EEC5 /* AppDelegate.h */,
-				C80E8344215F59FE00C4EEC5 /* AppDelegate.m */,
-				C80E8346215F59FE00C4EEC5 /* ViewController.h */,
-				C80E8347215F59FE00C4EEC5 /* ViewController.m */,
-				C80E8349215F5A0400C4EEC5 /* Assets.xcassets */,
-				C80E834B215F5A0400C4EEC5 /* Main.storyboard */,
-				C80E834E215F5A0400C4EEC5 /* Info.plist */,
-				C80E834F215F5A0400C4EEC5 /* main.m */,
-				C80E8351215F5A0400C4EEC5 /* XYWKWebView.entitlements */,
+				C80E8379215F5DB600C4EEC5 /* AppDelegate.h */,
+				C80E837A215F5DB600C4EEC5 /* AppDelegate.m */,
+				C80E837C215F5DB600C4EEC5 /* ViewController.h */,
+				C80E837D215F5DB600C4EEC5 /* ViewController.m */,
+				C80E838F215F5DDC00C4EEC5 /* BaseWKWebView */,
+				C80E837F215F5DB600C4EEC5 /* Main.storyboard */,
+				C80E8382215F5DB700C4EEC5 /* Assets.xcassets */,
+				C80E8384215F5DB700C4EEC5 /* LaunchScreen.storyboard */,
+				C80E8387215F5DB700C4EEC5 /* Info.plist */,
+				C80E8388215F5DB700C4EEC5 /* main.m */,
 			);
 			path = XYWKWebView;
+			sourceTree = "<group>";
+		};
+		C80E838F215F5DDC00C4EEC5 /* BaseWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				C80E8393215F5E1A00C4EEC5 /* WebViewJavascriptBridge */,
+				C80E8390215F5DEB00C4EEC5 /* XYWKWebViewController.h */,
+				C80E8391215F5DEB00C4EEC5 /* XYWKWebViewController.m */,
+			);
+			path = BaseWKWebView;
+			sourceTree = "<group>";
+		};
+		C80E8393215F5E1A00C4EEC5 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				C80E8394215F5E1A00C4EEC5 /* WebViewJavascriptBridgeBase.m */,
+				C80E8395215F5E1A00C4EEC5 /* WKWebViewJavascriptBridge.m */,
+				C80E8396215F5E1A00C4EEC5 /* WebViewJavascriptBridge.m */,
+				C80E8397215F5E1A00C4EEC5 /* WebViewJavascriptBridgeBase.h */,
+				C80E8398215F5E1A00C4EEC5 /* WebViewJavascriptBridge.js.txt */,
+				C80E8399215F5E1A00C4EEC5 /* WebViewJavascriptBridge.h */,
+				C80E839A215F5E1A00C4EEC5 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		C80E839F215F603000C4EEC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C80E83A0215F603100C4EEC5 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C80E833F215F59FE00C4EEC5 /* XYWKWebView */ = {
+		C80E8375215F5DB600C4EEC5 /* XYWKWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C80E8354215F5A0400C4EEC5 /* Build configuration list for PBXNativeTarget "XYWKWebView" */;
+			buildConfigurationList = C80E838C215F5DB700C4EEC5 /* Build configuration list for PBXNativeTarget "XYWKWebView" */;
 			buildPhases = (
-				C80E833C215F59FE00C4EEC5 /* Sources */,
-				C80E833D215F59FE00C4EEC5 /* Frameworks */,
-				C80E833E215F59FE00C4EEC5 /* Resources */,
+				C80E8372215F5DB600C4EEC5 /* Sources */,
+				C80E8373215F5DB600C4EEC5 /* Frameworks */,
+				C80E8374215F5DB600C4EEC5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,24 +139,24 @@
 			);
 			name = XYWKWebView;
 			productName = XYWKWebView;
-			productReference = C80E8340215F59FE00C4EEC5 /* XYWKWebView.app */;
+			productReference = C80E8376215F5DB600C4EEC5 /* XYWKWebView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C80E8338215F59FE00C4EEC5 /* Project object */ = {
+		C80E836E215F5DB600C4EEC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "肖扬";
 				TargetAttributes = {
-					C80E833F215F59FE00C4EEC5 = {
+					C80E8375215F5DB600C4EEC5 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = C80E833B215F59FE00C4EEC5 /* Build configuration list for PBXProject "XYWKWebView" */;
+			buildConfigurationList = C80E8371215F5DB600C4EEC5 /* Build configuration list for PBXProject "XYWKWebView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,54 +164,68 @@
 				en,
 				Base,
 			);
-			mainGroup = C80E8337215F59FE00C4EEC5;
-			productRefGroup = C80E8341215F59FE00C4EEC5 /* Products */;
+			mainGroup = C80E836D215F5DB600C4EEC5;
+			productRefGroup = C80E8377215F5DB600C4EEC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C80E833F215F59FE00C4EEC5 /* XYWKWebView */,
+				C80E8375215F5DB600C4EEC5 /* XYWKWebView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C80E833E215F59FE00C4EEC5 /* Resources */ = {
+		C80E8374215F5DB600C4EEC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C80E834A215F5A0400C4EEC5 /* Assets.xcassets in Resources */,
-				C80E834D215F5A0400C4EEC5 /* Main.storyboard in Resources */,
+				C80E839E215F5E1A00C4EEC5 /* WebViewJavascriptBridge.js.txt in Resources */,
+				C80E8386215F5DB700C4EEC5 /* LaunchScreen.storyboard in Resources */,
+				C80E8383215F5DB700C4EEC5 /* Assets.xcassets in Resources */,
+				C80E8381215F5DB600C4EEC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C80E833C215F59FE00C4EEC5 /* Sources */ = {
+		C80E8372215F5DB600C4EEC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C80E8348215F59FE00C4EEC5 /* ViewController.m in Sources */,
-				C80E8350215F5A0400C4EEC5 /* main.m in Sources */,
-				C80E8345215F59FE00C4EEC5 /* AppDelegate.m in Sources */,
+				C80E837E215F5DB600C4EEC5 /* ViewController.m in Sources */,
+				C80E8389215F5DB700C4EEC5 /* main.m in Sources */,
+				C80E8392215F5DEB00C4EEC5 /* XYWKWebViewController.m in Sources */,
+				C80E837B215F5DB600C4EEC5 /* AppDelegate.m in Sources */,
+				C80E839B215F5E1A00C4EEC5 /* WebViewJavascriptBridgeBase.m in Sources */,
+				C80E839D215F5E1A00C4EEC5 /* WebViewJavascriptBridge.m in Sources */,
+				C80E839C215F5E1A00C4EEC5 /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C80E834B215F5A0400C4EEC5 /* Main.storyboard */ = {
+		C80E837F215F5DB600C4EEC5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C80E834C215F5A0400C4EEC5 /* Base */,
+				C80E8380215F5DB600C4EEC5 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C80E8384215F5DB700C4EEC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80E8385215F5DB700C4EEC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C80E8352215F5A0400C4EEC5 /* Debug */ = {
+		C80E838A215F5DB700C4EEC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +257,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -210,14 +276,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		C80E8353215F5A0400C4EEC5 /* Release */ = {
+		C80E838B215F5DB700C4EEC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +315,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -262,68 +328,67 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C80E8355215F5A0400C4EEC5 /* Debug */ = {
+		C80E838D215F5DB700C4EEC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = XYWKWebView/XYWKWebView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = XYWKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kuwo.JuXin.XYWKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C80E8356215F5A0400C4EEC5 /* Release */ = {
+		C80E838E215F5DB700C4EEC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = XYWKWebView/XYWKWebView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = XYWKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kuwo.JuXin.XYWKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C80E833B215F59FE00C4EEC5 /* Build configuration list for PBXProject "XYWKWebView" */ = {
+		C80E8371215F5DB600C4EEC5 /* Build configuration list for PBXProject "XYWKWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C80E8352215F5A0400C4EEC5 /* Debug */,
-				C80E8353215F5A0400C4EEC5 /* Release */,
+				C80E838A215F5DB700C4EEC5 /* Debug */,
+				C80E838B215F5DB700C4EEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C80E8354215F5A0400C4EEC5 /* Build configuration list for PBXNativeTarget "XYWKWebView" */ = {
+		C80E838C215F5DB700C4EEC5 /* Build configuration list for PBXNativeTarget "XYWKWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C80E8355215F5A0400C4EEC5 /* Debug */,
-				C80E8356215F5A0400C4EEC5 /* Release */,
+				C80E838D215F5DB700C4EEC5 /* Debug */,
+				C80E838E215F5DB700C4EEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C80E8338215F59FE00C4EEC5 /* Project object */;
+	rootObject = C80E836E215F5DB600C4EEC5 /* Project object */;
 }
