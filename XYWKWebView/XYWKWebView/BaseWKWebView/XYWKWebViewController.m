@@ -12,7 +12,6 @@
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 
-
 @interface XYWKWebViewController ()<WKNavigationDelegate>
 
 @property (nonatomic, strong) WKWebView *webView;
@@ -47,7 +46,6 @@
     [self.webView removeObserver:self forKeyPath:@"title"];
 }
 
-
 #pragma mark 注册js回调
 - (void)registJavascriptBridge:(NSString *)handlerName handler:(WVJBHandler)handler {
     [self.jsBridge registerHandler:handlerName handler:handler];
@@ -57,7 +55,6 @@
 - (void)callHandler:(NSString *)handlerName data:(id)data {
     [self.jsBridge callHandler:handlerName data:data];
 }
-
 
 #pragma mark - Action
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {

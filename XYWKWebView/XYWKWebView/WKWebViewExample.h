@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XYWKWebViewController.h"
 
-@interface ViewController : UIViewController
+@interface WKWebViewExample : XYWKWebViewController
 
 
 @end

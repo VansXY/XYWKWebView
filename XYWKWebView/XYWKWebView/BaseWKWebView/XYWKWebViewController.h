@@ -11,13 +11,10 @@
 
 @interface XYWKWebViewController : UIViewController
 
-/**
- 用于加载一个新的URLRequest。
- */
+/// 用于加载一个新的URLRequest
 @property (nonatomic, strong, readonly) WKWebView *webView;
-/**
- 页面URL
- */
+
+/// 页面URL
 @property (nonatomic, copy) NSString *pageUrl;
 /**
  页面title， 可以不传

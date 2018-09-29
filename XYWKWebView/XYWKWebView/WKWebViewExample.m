@@ -6,13 +6,13 @@
 //  Copyright © 2018年 肖扬. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WKWebViewExample.h"
 
-@interface ViewController ()
+@interface WKWebViewExample ()
 
 @end
 
-@implementation ViewController
+@implementation WKWebViewExample
 
 - (void)viewDidLoad {
     [super viewDidLoad];
