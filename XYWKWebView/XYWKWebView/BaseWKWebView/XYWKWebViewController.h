@@ -16,9 +16,9 @@
 
 /// 页面URL
 @property (nonatomic, copy) NSString *pageUrl;
-/**
- 页面title， 可以不传
- */
+
+
+/// 页面title， 可以不传
 @property (nonatomic, copy) NSString *pageTitle;
 
 /**

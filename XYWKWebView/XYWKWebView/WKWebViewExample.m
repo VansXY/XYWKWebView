@@ -16,14 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    /// 注册的方法名
+    [self registJavascriptBridge:@"" handler:^(id data, WVJBResponseCallback responseCallback) {
+        NSLog(@"%@",data);
+    }];
+    
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/// 加载webView
+- (void)loadWebPage {
+    NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] init];
+    [urlRequest setURL:[NSURL URLWithString:@"https://m.hoomxb.com/about/company"]];
+    [self.webView loadRequest:urlRequest];
 }
+
 
 
 @end
