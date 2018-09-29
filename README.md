@@ -1,7 +1,7 @@
 # XYWKWebView
 iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使用。并介绍了在使用WKWebView可能遇到的坑。
 
-## 如何使用
+## 1. 如何使用
 1. 集成基类 XYWKWebViewController，实现方法
 ```
 - (void)loadWebPage {
@@ -19,7 +19,7 @@ iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使�
 ```
 
 
-## Native 与 JS 是怎么交互的
+## 2. Native 与 JS 是怎么交互的
 
 #### 1. JS调用OC（JS 调用 Native，UIWebView 通过 JavaScriptCore 库，内部有一个 JSContext 对象，可实现共享，WKWebView 通过 Web 的 window 对象提供 WebKit 对象实现共享。WKWebView 绑定共享对象，是通过特定的构造方法实现，参考代码，通过指定 UserContentController 对象的 ScriptMessageHandler 经过 Configuration 参数构造时传入）
 
@@ -39,7 +39,7 @@ iOS 12 弃用了UIWebView，自己封装一个WKWebView基类，便于以后使�
 ```
 
 
-## WKWebView可能遇到的坑
+## 3. WKWebView可能遇到的坑
 1. 默认的跳转行为，打开 iTuns、tel、mail、open 等
 
   - 在 UIWebView 上，如果超链接设置未 tel://00-0000 之类的值，点击会直接拨打电话，但在 WKWebView 上，该点击没有反应，类似的都被屏蔽了，通过打开浏览器跳转 AppStore 已然无法实现
